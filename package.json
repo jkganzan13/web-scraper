@@ -1,0 +1,20 @@
+{
+  "name"         : "web-scraper",
+  "version"      : "0.0.1",
+  "description"  : "my web scraper",
+  "main"         : "server.js",
+  "author"       : "John Kenneth Ganzan",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository"   : {
+    "type" : "git",
+    "url"  : "https://github.com/jkganzan13/web-scraper.git"
+  },
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "nodemon"    : "latest"
+  }
+}
